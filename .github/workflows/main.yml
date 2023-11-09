@@ -1,4 +1,4 @@
-name: Mixed inputs
+name: Multiple inputs
 
 on:
   workflow_dispatch:
@@ -7,13 +7,13 @@ on:
         type: choice
         description: Who to greet
         options: 
-        - monalisa
-        - cschleiden
+        - Kshitij
+        - Horizon
       message:
         required: true
       use-emoji:
         type: string
-        description: Include 🎉🤣 emojis
+        description: Include 🎉🤣 emoji
       environment:
         type: environment
 
